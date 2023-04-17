@@ -1,0 +1,234 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+
+<head>
+	<!-- Заголовок страницы в браузере -->
+	<title>Выпадающее меню</title>
+	<!-- Подключаем CSS -->
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+	<link rel="stylesheet" href="bootstrap/dist/css/bootstrap.css">
+	<link rel="stylesheet" href="bootstrap/dist/css/bootstrap-utilities.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;700&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Кодировка страницы -->
+	<meta charset="UTF-8">
+	<!-- Адаптив -->
+	<meta name="viewport" content="width=device-width">
+</head>
+<!-- Отображаемое тело страницы -->
+
+<body>
+	<!-- Оболочка для демонстрации -->
+	<div class="wrapper">
+		<!-- Контент -->
+		<nav class="menu">
+			<p class="caption-status">Лаборатория НК ООО "СТАТУС"</p>
+			<ul class="menu__list">
+				<li>
+					<a href="" class="menu__link">Оборудование</a>
+					<span class="menu__arrow arrow"></span>
+					<ul class="sub-menu__list">
+						<li>
+							<a href="https://docs.google.com/spreadsheets/d/1v9LvEyPAaKYpYC0NdWfGXyRlQ443vgd8EppBUjVuXAY/edit#gid=0"
+								class="sub-menu__link" target="_blank">Дефектоскопы</a>
+						</li>
+						<li>
+							<a href="https://docs.google.com/spreadsheets/d/1v9LvEyPAaKYpYC0NdWfGXyRlQ443vgd8EppBUjVuXAY/edit#gid=1079675761"
+								class="sub-menu__link" target="_blank">Настроечные образцы</a>
+							<!-- <span class="sub-menu__arrow arrow"></span>
+							<ul class="sub-sub-menu__list">
+								<li>
+									<a href="" class="sub-sub-menu__link">Третий уровень</a>
+								</li>
+								<li>
+									<a href="" class="sub-sub-menu__link">Третий уровень</a>
+								</li>
+								<li>
+									<a href="" class="sub-sub-menu__link">Третий уровень</a>
+								</li>
+								<li>
+									<a href="" class="sub-sub-menu__link">Третий уровень</a>
+								</li>
+							</ul> -->
+						</li>
+						<li>
+							<a href="https://docs.google.com/spreadsheets/d/1v9LvEyPAaKYpYC0NdWfGXyRlQ443vgd8EppBUjVuXAY/edit#gid=1166692559"
+								class="sub-menu__link" target="_blank">Наборы ВИК</a>
+						</li>
+						<li>
+							<a href="https://docs.google.com/spreadsheets/d/1v9LvEyPAaKYpYC0NdWfGXyRlQ443vgd8EppBUjVuXAY/edit#gid=164950539"
+								class="sub-menu__link" target="_blank">Тележки Скаруч</a>
+						</li>
+						<li>
+							<a href="https://docs.google.com/spreadsheets/d/1v9LvEyPAaKYpYC0NdWfGXyRlQ443vgd8EppBUjVuXAY/edit#gid=634699525"
+								class="sub-menu__link" target="_blank">Ноутбуки</a>
+						</li>
+						<li>
+							<a href="https://docs.google.com/spreadsheets/d/1v9LvEyPAaKYpYC0NdWfGXyRlQ443vgd8EppBUjVuXAY/edit#gid=816200935"
+								class="sub-menu__link" target="_blank">Прочее</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="" class="menu__link">Расходные материалы</a>
+					<span class="menu__arrow arrow"></span>
+					<ul class="sub-menu__list">
+						<li>
+							<a href="https://docs.google.com/spreadsheets/d/17zg0cvHtHsOjiGavROzbwL1guCDenzzLh8Jy94arIjk/edit#gid=0"
+								class="sub-menu__link" target="_blank">ПЭП</a>
+						</li>
+						<li>
+							<a href="https://docs.google.com/spreadsheets/d/17zg0cvHtHsOjiGavROzbwL1guCDenzzLh8Jy94arIjk/edit#gid=1326343510"
+								class="sub-menu__link" target="_blank">Провода</a>
+							<!-- <span class="sub-menu__arrow arrow"></span>
+							<ul class="sub-sub-menu__list">
+								<li>
+									<a href="" class="sub-sub-menu__link">Третий уровень</a>
+								</li>
+								<li>
+									<a href="" class="sub-sub-menu__link">Третий уровень</a>
+								</li>
+								<li>
+									<a href="" class="sub-sub-menu__link">Третий уровень</a>
+								</li>
+								<li>
+									<a href="" class="sub-sub-menu__link">Третий уровень</a>
+								</li>
+							</ul> -->
+						</li>
+						<li>
+							<a href="https://docs.google.com/spreadsheets/d/17zg0cvHtHsOjiGavROzbwL1guCDenzzLh8Jy94arIjk/edit#gid=400865849"
+								class="sub-menu__link" target="_blank">Мех-е лыжи скаруч</a>
+						</li>
+						<li>
+							<a href="https://docs.google.com/spreadsheets/d/17zg0cvHtHsOjiGavROzbwL1guCDenzzLh8Jy94arIjk/edit#gid=1167354982"
+								class="sub-menu__link" target="_blank">Аккумуляторные батареи</a>
+						</li>
+						<li>
+							<a href="https://docs.google.com/spreadsheets/d/17zg0cvHtHsOjiGavROzbwL1guCDenzzLh8Jy94arIjk/edit#gid=1583083035"
+								class="sub-menu__link" target="_blank">Контактная жидкость</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="" class="menu__link">Объекты</a>
+					<span class="menu__arrow arrow"></span>
+					<ul class="sub-menu__list">
+						<li>
+							<a href="https://docs.google.com/spreadsheets/d/1XqpLklvuVaSmPCPpiK4eudodNTxJBXSE06FQb8h7QRs/edit#gid=0"
+								class="sub-menu__link" target="_blank">Сургут Обь</a>
+						</li>
+						<li>
+							<a href="https://docs.google.com/spreadsheets/d/1XqpLklvuVaSmPCPpiK4eudodNTxJBXSE06FQb8h7QRs/edit#gid=730742651"
+								class="sub-menu__link" target="_blank">Кемерово Томь</a>
+							<!-- <span class="sub-menu__arrow arrow"></span>
+							<ul class="sub-sub-menu__list">
+								<li>
+									<a href="" class="sub-sub-menu__link">Третий уровень</a>
+								</li>
+								<li>
+									<a href="" class="sub-sub-menu__link">Третий уровень</a>
+								</li>
+								<li>
+									<a href="" class="sub-sub-menu__link">Третий уровень</a>
+								</li>
+								<li>
+									<a href="" class="sub-sub-menu__link">Третий уровень</a>
+								</li>
+							</ul> -->
+						</li>
+						<li>
+							<a href="https://docs.google.com/spreadsheets/d/1XqpLklvuVaSmPCPpiK4eudodNTxJBXSE06FQb8h7QRs/edit#gid=2075100302"
+								class="sub-menu__link" target="_blank">Казань Волга</a>
+						</li>
+						<li>
+							<a href="https://docs.google.com/spreadsheets/d/1XqpLklvuVaSmPCPpiK4eudodNTxJBXSE06FQb8h7QRs/edit#gid=1607644474"
+								class="sub-menu__link" target="_blank">Тюмень Дружба</a>
+						</li>
+						<li>
+							<a href="https://docs.google.com/spreadsheets/d/1XqpLklvuVaSmPCPpiK4eudodNTxJBXSE06FQb8h7QRs/edit#gid=1660473527"
+								class="sub-menu__link" target="_blank">Чеускино</a>
+						</li>
+						<li>
+							<a href="https://docs.google.com/spreadsheets/d/1XqpLklvuVaSmPCPpiK4eudodNTxJBXSE06FQb8h7QRs/edit#gid=712834256"
+								class="sub-menu__link" target="_blank">Казань ПК260</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="" class="menu__link">Дефектоскописты</a>
+					<span class="menu__arrow arrow"></span>
+					<ul class="sub-menu__list">
+						<li>
+							<a href="https://docs.google.com/spreadsheets/d/1v_-2P7WI5UXl7Y7ySQzXi8fLPzL3MHzAv4VGBDLuVBc/edit#gid=0"
+								class="sub-menu__link" target="_blank">Абдуллин С.А.</a>
+						</li>
+						<li>
+							<a href="https://docs.google.com/spreadsheets/d/1v_-2P7WI5UXl7Y7ySQzXi8fLPzL3MHzAv4VGBDLuVBc/edit#gid=2016033316"
+								class="sub-menu__link" target="_blank">Балдыков В.В.</a>
+							<!-- <span class="sub-menu__arrow arrow"></span>
+							<ul class="sub-sub-menu__list">
+								<li>
+									<a href="" class="sub-sub-menu__link">Третий уровень</a>
+								</li>
+								<li>
+									<a href="" class="sub-sub-menu__link">Третий уровень</a>
+								</li>
+								<li>
+									<a href="" class="sub-sub-menu__link">Третий уровень</a>
+								</li>
+								<li>
+									<a href="" class="sub-sub-menu__link">Третий уровень</a>
+								</li>
+							</ul> -->
+						</li>
+						<li>
+							<a href="https://docs.google.com/spreadsheets/d/1v_-2P7WI5UXl7Y7ySQzXi8fLPzL3MHzAv4VGBDLuVBc/edit#gid=1153713556"
+								class="sub-menu__link" target="_blank">Киясов А.Н.</a>
+						</li>
+						<li>
+							<a href="https://docs.google.com/spreadsheets/d/1v_-2P7WI5UXl7Y7ySQzXi8fLPzL3MHzAv4VGBDLuVBc/edit#gid=1394627637"
+								class="sub-menu__link" target="_blank">Подколзин А.А.</a>
+						</li>
+						<li>
+							<a href="https://docs.google.com/spreadsheets/d/1v_-2P7WI5UXl7Y7ySQzXi8fLPzL3MHzAv4VGBDLuVBc/edit#gid=737024215"
+								class="sub-menu__link" target="_blank">Фадеев А.П.</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="" class="menu__link">Лаборатория</a>
+					<span class="menu__arrow arrow"></span>
+					<ul class="sub-menu__list">
+						<li>
+							<a href="https://docs.google.com/spreadsheets/d/1znX2ujHSpuladqT4BhUXQHbKaUie1O3LGIg0r_C4YV0/edit#gid=0"
+								class="sub-menu__link" target="_blank">Аттестация</a>
+						</li>
+						<li>
+							<a href="https://docs.google.com/spreadsheets/d/1znX2ujHSpuladqT4BhUXQHbKaUie1O3LGIg0r_C4YV0/edit#gid=75778365"
+								class="sub-menu__link" target="_blank">Реквизиты</a>
+						</li>
+						<li>
+							<a href="https://docs.google.com/spreadsheets/d/1znX2ujHSpuladqT4BhUXQHbKaUie1O3LGIg0r_C4YV0/edit#gid=1905111818"
+								class="sub-menu__link" target="_blank">Контакты </a>
+						</li>
+
+					</ul>
+				</li>
+			</ul>
+		</nav>
+		<!-- Подключаем файл скриптов -->
+		<script src="js/script.js"></script>
+	</div>
+</body>
+
+</html>
