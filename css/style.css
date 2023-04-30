@@ -16,7 +16,7 @@ body {
 	background-image: url(../images/bg-8.png);
 	font-family: 'Roboto', Arial, "Helvetica Neue", Helvetica, sans-serif;
 	color: #fff;
-	font-size: 16px;
+	font-size: 14px;
 }
 
 .wrapper {
@@ -80,7 +80,7 @@ body {
 
 .menu li {
 	position: relative;
-	min-width: 250px;
+	min-width: 300px;
 	list-style: none;
 	border-radius: 5px;
 	/* margin-left: 5px; */
@@ -116,9 +116,9 @@ body {
 
 .sub-menu__list {
 	display: none;
-	min-width: 250px;
+	min-width: 300px;
 	position: absolute;
-	left: 0;
+	left: 0px;
 	top: 20px;
 	padding: 20px 0px 0px 0px;
 	/* margin-left: -5px; */
@@ -140,7 +140,7 @@ body {
 	position: absolute;
 	top: 0;
 	left: 100%;
-	min-width: 250px;
+	min-width: 300px;
 	padding: 0px 0px 0px 5px;
 }
 
@@ -203,17 +203,13 @@ body.touch .sub-sub-menu__list.open {
 
 }
 
-
-
-
-
 body.touch .arrow {
 	display: block;
 }
 
 @media (max-width:767px) {
 	.caption-status {
-		width: 300px;
+		width: 250px;
 		text-align: center;
 		margin: 20px auto;
 		text-transform: uppercase;
@@ -225,7 +221,7 @@ body.touch .arrow {
 
 	.menu__list {
 		display: block;
-		max-width: 300px;
+		max-width: 250px;
 		margin: 0 auto;
 		padding-left: 0px;
 	}
