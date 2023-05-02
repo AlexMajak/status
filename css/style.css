@@ -80,7 +80,7 @@ body {
 
 .menu li {
 	position: relative;
-	min-width: 300px;
+	min-width: 250px;
 	list-style: none;
 	border-radius: 5px;
 	/* margin-left: 5px; */
@@ -116,7 +116,7 @@ body {
 
 .sub-menu__list {
 	display: none;
-	min-width: 300px;
+	min-width: 250px;
 	position: absolute;
 	left: 0px;
 	top: 20px;
@@ -140,7 +140,7 @@ body {
 	position: absolute;
 	top: 0;
 	left: 100%;
-	min-width: 300px;
+	min-width: 250px;
 	padding: 0px 0px 0px 5px;
 }
 
@@ -233,7 +233,6 @@ body.touch .arrow {
 	/* .arrow.active .menu__list>li {
 		border: 2px solid salmon;
 	}
-
 	.arrow.active .sub-menu__list>li {
 		border: 2px solid salmon;
 	} */
